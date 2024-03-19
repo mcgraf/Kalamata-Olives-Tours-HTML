@@ -418,13 +418,14 @@
   height: auto;
   display: flex;
   align-items: flex-start;
+  padding-left: 190px;
+  flex-direction: row;
   justify-content: flex-start;
 }
 .home-container14 {
-  flex: 0 0 auto;
   float: left;
-  width: auto;
-  display: flex;
+  width: 452px;
+  display: inline-block;
   align-self: flex-start;
   align-items: flex-start;
   flex-direction: column;
@@ -498,12 +499,12 @@
   line-height: 150%;
 }
 .home-container21 {
-  flex: 0 0 auto;
   float: right;
-  width: auto;
-  display: flex;
+  width: 294px;
+  display: inline-block;
   align-self: flex-start;
   align-items: flex-end;
+  margin-right: 1px;
   flex-direction: column;
   vertical-align: middle;
   justify-content: center;
