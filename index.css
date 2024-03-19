@@ -392,8 +392,9 @@
 .home-text63 {
   line-height: 150%;
 }
-.home-button {
+.home-link {
   width: 100%;
+  text-decoration: none;
 }
 .home-banner1 {
   flex: 0 0 auto;

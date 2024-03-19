@@ -53,6 +53,9 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.gallery-register {
+  text-decoration: none;
+}
 .gallery-burger-menu {
   display: none;
 }
@@ -177,6 +180,7 @@
   width: 149px;
   height: 45px;
   font-size: 20px;
+  text-decoration: none;
 }
 .gallery-banner {
   width: 100%;
