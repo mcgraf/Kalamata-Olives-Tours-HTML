@@ -394,6 +394,7 @@
 }
 .home-link {
   width: 100%;
+  align-self: center;
   text-decoration: none;
 }
 .home-banner1 {
@@ -638,14 +639,20 @@
   align-items: center;
   flex-direction: row;
 }
+.home-nav122 {
+  text-decoration: none;
+}
 .home-nav222 {
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-nav322 {
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-nav422 {
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-nav522 {
   margin-left: var(--dl-space-space-unit);
@@ -676,25 +683,46 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.home-text85 {
+  font-size: 16px;
+  font-family: "Cabin";
+  font-weight: 400;
+  line-height: 150%;
+}
+.home-link1 {
+  text-decoration: underline;
+}
 .home-icon-group1 {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
+.home-link2 {
+  display: contents;
+}
 .home-icon10 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-link3 {
+  display: contents;
 }
 .home-icon12 {
   width: 24px;
   height: 24px;
-  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
-.home-icon14 {
-  width: 24px;
-  height: 24px;
+@media(max-width: 1200px) {
+  .home-link {
+    text-align: center;
+  }
+  .home-container13 {
+    width: 663px;
+    padding-left: 0px;
+  }
 }
 @media(max-width: 991px) {
   .home-hero1 {
