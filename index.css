@@ -730,7 +730,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text101 {
+.home-text099 {
   font-size: 16px;
   font-family: "Cabin";
   font-weight: 400;
@@ -772,6 +772,13 @@
   }
 }
 @media(max-width: 1200px) {
+  .home-container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  .home-basic-plan-pricing {
+    font-size: 4rem;
+  }
   .home-link {
     text-align: center;
   }
@@ -791,11 +798,12 @@
     height: 364px;
   }
   .home-text085 {
+    color: var(--dl-color-gray-white);
     align-self: center;
     text-align: left;
     padding-top: var(--dl-space-space-twounits);
   }
-  .home-text097 {
+  .home-text095 {
     color: var(--dl-color-gray-500);
   }
 }
@@ -946,7 +954,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text101 {
+  .home-text099 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -1014,7 +1022,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text101 {
+  .home-text099 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
