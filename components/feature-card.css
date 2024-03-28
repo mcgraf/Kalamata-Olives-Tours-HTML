@@ -1,3 +1,6 @@
+.feature-card-feature-card {
+  background-color: #5a704c;
+}
 .feature-card-container {
   gap: var(--dl-space-space-unit);
   display: flex;
@@ -11,7 +14,7 @@
 }
 @media(max-width: 1200px) {
   .feature-card-feature-card {
-    background-color: #7d9c6d;
+    background-color: #5a704c;
   }
 }
 @media(max-width: 767px) {
