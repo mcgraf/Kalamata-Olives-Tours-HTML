@@ -9,6 +9,11 @@
   font-weight: 600;
   line-height: 28px;
 }
+@media(max-width: 1200px) {
+  .feature-card-feature-card {
+    background-color: #7d9c6d;
+  }
+}
 @media(max-width: 767px) {
   .feature-card-feature-card {
     flex-direction: row;
@@ -775,6 +780,9 @@
   .home-container {
     margin: 0 auto;
     max-width: 1200px;
+  }
+  .home-banner {
+    background-color: #5a704c;
   }
   .home-basic-plan-pricing {
     font-size: 4rem;
