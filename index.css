@@ -300,6 +300,7 @@
   padding: var(--dl-space-space-threeunits);
   grid-gap: var(--dl-space-space-unit);
   max-width: var(--dl-size-size-maxwidth);
+  background-color: var(--dl-color-custom-neutral-dark);
   grid-template-columns: 1fr 1fr 1fr;
 }
 .home-features {
@@ -821,6 +822,9 @@
   text-decoration: none;
 }
 @media(max-width: 1600px) {
+  .home-gallery {
+    background-color: var(--dl-color-custom-neutral-dark);
+  }
   .home-link {
     text-align: center;
   }
