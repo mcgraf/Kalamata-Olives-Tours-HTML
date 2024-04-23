@@ -91,6 +91,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  background-color: #5a704c;
 }
 .home-header {
   width: 100%;
@@ -300,7 +301,7 @@
   padding: var(--dl-space-space-threeunits);
   grid-gap: var(--dl-space-space-unit);
   max-width: var(--dl-size-size-maxwidth);
-  background-color: var(--dl-color-custom-neutral-dark);
+  background-color: #5a704c;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .home-features {
@@ -823,7 +824,7 @@
 }
 @media(max-width: 1600px) {
   .home-gallery {
-    background-color: var(--dl-color-custom-neutral-dark);
+    background-color: #5a704c;
   }
   .home-link {
     text-align: center;
@@ -842,7 +843,12 @@
     background-color: #5a704c;
   }
   .home-gallery {
-    background-color: var(--dl-color-custom-neutral-dark);
+    height: 100%;
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+    background-color: #5a704c;
   }
   .home-basic-plan-pricing {
     font-size: 4rem;
