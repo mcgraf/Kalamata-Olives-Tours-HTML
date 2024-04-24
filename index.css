@@ -210,6 +210,7 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-buttons1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   margin-top: var(--dl-space-space-unit);
   align-items: center;
@@ -995,9 +996,13 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
   }
+  .home-banner1 {
+    flex-direction: column;
+  }
   .home-banner2 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
+    flex-direction: column;
   }
   .home-faq1 {
     flex-direction: column;
@@ -1015,6 +1020,10 @@
   .home-container32 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .home-container34 {
+    width: 100%;
   }
   .home-testimonial-card {
     padding-left: var(--dl-space-space-twounits);
@@ -1045,6 +1054,9 @@
   }
   .home-mobile-menu1 {
     padding: 16px;
+  }
+  .home-buttons1 {
+    display: none;
   }
   .home-hero1 {
     padding-top: var(--dl-space-space-twounits);
