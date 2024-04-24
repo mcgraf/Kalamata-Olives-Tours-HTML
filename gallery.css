@@ -107,15 +107,19 @@
 }
 .gallery-nav121 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .gallery-nav221 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .gallery-nav321 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .gallery-nav421 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .gallery-nav521 {
   margin-bottom: var(--dl-space-space-unit);
@@ -372,6 +376,9 @@
   }
   .gallery-mobile-menu1 {
     padding: 16px;
+  }
+  .gallery-buttons1 {
+    display: none;
   }
   .gallery-hero1 {
     padding-top: var(--dl-space-space-twounits);
