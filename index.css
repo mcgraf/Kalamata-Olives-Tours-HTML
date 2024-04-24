@@ -196,18 +196,23 @@
 }
 .home-nav121 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-nav221 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-nav321 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-nav421 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-nav521 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-buttons1 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
