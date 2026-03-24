@@ -351,3 +351,104 @@
   text-transform: none;
   text-decoration: none;
 }
+.redirect-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(17, 16, 12, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.redirect-overlay-card {
+  width: min(100%, 620px);
+  display: flex;
+  align-items: center;
+  border-radius: 28px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 40px;
+  background: rgba(62, 58, 47, 0.92);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3);
+}
+.redirect-overlay-title {
+  color: var(--dl-color-custom-neutral-light);
+  font-size: 40px;
+  font-family: Cabin;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.redirect-overlay-subtitle {
+  color: rgba(251, 249, 239, 0.72);
+  font-size: 12px;
+  font-family: Cabin;
+  font-weight: 700;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+}
+.redirect-overlay-divider {
+  width: 72px;
+  height: 1px;
+  margin: 18px 0 28px;
+  background: rgba(251, 249, 239, 0.25);
+}
+.redirect-overlay-message {
+  color: var(--dl-color-custom-neutral-light);
+  margin: 0;
+  font-size: 18px;
+  max-width: 31ch;
+  text-align: center;
+  font-family: Inter;
+  line-height: 1.7;
+}
+.redirect-overlay-message + .redirect-overlay-message {
+  margin-top: 22px;
+}
+.redirect-overlay-link {
+  color: var(--dl-color-custom-neutral-light);
+  margin-top: 32px;
+  transition: transform 0.2s ease, background-color 0.2s ease,
+    box-shadow 0.2s ease;
+  font-family: Cabin;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 14px;
+  padding: 16px 28px;
+  background: #4caf50;
+  box-shadow: 0 12px 24px rgba(76, 175, 80, 0.25);
+}
+.redirect-overlay-link:hover,
+.redirect-overlay-link:focus-visible {
+  background: #58bd5d;
+  transform: translateY(-1px);
+  box-shadow: 0 16px 30px rgba(76, 175, 80, 0.32);
+}
+.redirect-overlay-link:focus-visible {
+  outline: 3px solid rgba(251, 249, 239, 0.7);
+  outline-offset: 4px;
+}
+@media (max-width: 767px) {
+  .redirect-overlay {
+    padding: 18px;
+  }
+  .redirect-overlay-card {
+    border-radius: 24px;
+    padding: 36px 24px;
+  }
+  .redirect-overlay-title {
+    font-size: 32px;
+  }
+  .redirect-overlay-message {
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  .redirect-overlay-link {
+    width: 100%;
+    text-align: center;
+  }
+}
